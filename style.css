@@ -1,0 +1,57 @@
+body{
+    background-color: #eeff00;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: cornsilk;
+    color:brown;
+}
+#show_sketch{
+    float: right;
+}
+#score{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5px;
+}
+#timer{
+    float: right;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-right: 5px;
+}
+p{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;  
+    color: black;
+}
+#drawn_sketch{
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
+    color: red;
+}
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px aqua;}
+  to {box-shadow: 1px 1px 50px rgb(4, 8, 61);}
+
+}
+
+
+p, span
+{
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+}
